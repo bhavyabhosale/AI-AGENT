@@ -1,0 +1,42 @@
+{
+    "qa_pairs": {
+      "how to create vpc": "How to Create VPC Network\nCreating a Virtual Private Cloud (VPC) network on DigitalOcean involves logging into your account...",
+      "how to setup firewall": "How to Setup Firewall Rules\nConfiguring firewall rules on DigitalOcean is crucial for controlling inbound and outbound traffic to your resources...",
+      "how to create droplet": "How to Create Droplet\nTo create a droplet (virtual private server) on DigitalOcean, you need to choose a region...",
+      "how to add droplet to firewall": "How to Add Droplet to Firewall Rules\nAfter creating a droplet, associate it with existing firewall rules...",
+      "how to setup nms": "How to Set Up NMS (Network Management System)\nSetting up a network management system on your DigitalOcean droplet involves SSH into the droplet...",
+      "how to log onto the gcp console": "How to Log onto the GCP Console\nLog into GCP Console: Access your GCP account using credentials...",
+      "how to setup vpc gcp": "How to Set Up VPC for the NMS\nNavigate to VPC Networks: Use the search bar in the GCP Console to find and select 'VPC networks'...",
+      "how to setup firewall policy gcp": "How to Setup Firewall Policy\nAccess Firewall Policies: Search for 'Firewall policies'...",
+      "how to create vm gcp": "How to Create VM Instance\nNavigate to VM Instances: Proceed to the VM instances section within the GCP Console...",
+      "how to setup vultr node": "Explain the Vultr Node Setup Procedure:\nLog onto your Vultr account: Begin by logging into your Vultr account via their web interface or API...",
+      "how to setup access rules aws": "How to Setup Access Rules in AWS\nTo ensure consistency and proper resource management, it’s crucial to select the appropriate AWS region...",
+      "how to create vpc aws": "How to Create a VPC\nA Virtual Private Cloud (VPC) allows you to provision a logically isolated section of the AWS cloud...",
+      "how to create internet gateway aws": "How to Create an Internet Gateway\nAn Internet Gateway (IGW) is a horizontally scaled, redundant, and highly available VPC component...",
+      "how to create route table aws": "How to Create a Route Table\nA Route Table contains a set of rules, called routes, that are used to determine where network traffic from your subnet or gateway is directed...",
+      "how to create subnet aws": "How to Create a Subnet\nA subnet is a range of IP addresses within your VPC...",
+      "how to create security group aws": "How to Create a Security Group\nA Security Group acts as a virtual firewall for your EC2 instances...",
+      "how to create ec2 instance aws": "How to Launch an EC2 Instance\nAn EC2 instance is a virtual server in AWS cloud...",
+      "how to register a node on aws": "How to Register a Node on AWS\nTo register an EC2 instance as a node, connect to the instance using SSH..."
+    },
+    "responses": {
+      "create_vpc": "How to Create VPC Network\nCreating a Virtual Private Cloud (VPC) network on DigitalOcean involves logging into your account...",
+      "setup_firewall": "How to Setup Firewall Rules\nConfiguring firewall rules on DigitalOcean is crucial for controlling inbound and outbound traffic to your resources...",
+      "create_droplet": "How to Create Droplet\nTo create a droplet (virtual private server) on DigitalOcean, you need to choose a region...",
+      "add_droplet_to_firewall": "How to Add Droplet to Firewall Rules\nAfter creating a droplet, associate it with existing firewall rules...",
+      "setup_nms": "How to Set Up NMS (Network Management System)\nSetting up a network management system on your DigitalOcean droplet involves SSH into the droplet...",
+      "log_gcp_console": "How to Log onto the GCP Console\nLog into GCP Console: Access your GCP account using credentials...",
+      "setup_vpc_gcp": "Setup VPC for the NMS\nNavigate to VPC Networks: Use the search bar in the GCP Console to find and select 'VPC networks'...",
+      "setup_firewall_policy_gcp": "How to Setup Firewall Policy\nAccess Firewall Policies: Search for 'Firewall policies'...",
+      "create_vm_gcp": "How to Create VM Instance\nNavigate to VM Instances: Proceed to the VM instances section within the GCP Console...",
+      "vultr_node_setup": "Explain the Vultr Node Setup Procedure:\nLog onto your Vultr account: Begin by logging into your Vultr account via their web interface or API...",
+      "aws_access_rules": "How to Setup Access Rules in AWS\nTo ensure consistency and proper resource management, it’s crucial to select the appropriate AWS region...",
+      "create_vpc_aws": "How to Create a VPC\nA Virtual Private Cloud (VPC) allows you to provision a logically isolated section of the AWS cloud...",
+      "create_internet_gateway_aws": "How to Create an Internet Gateway\nAn Internet Gateway (IGW) is a horizontally scaled, redundant, and highly available VPC component...",
+      "add_internet_gateway_route_aws": "How to Add Internet Gateway Route to Route Table\nThe Route Table controls the routing of traffic within your VPC...",
+      "create_subnet_aws": "How to Create a Subnet\nA subnet is a range of IP addresses in your VPC...",
+      "create_security_group_aws": "How to Create a Security Group\nA Security Group acts as a virtual firewall for your EC2 instances...",
+      "create_ec2_instance_aws": "How to Launch an EC2 Instance\nAn EC2 instance is a virtual server that provides computing capacity in the cloud...",
+      "aws_node_registration": "How to Register a Node on AWS\nTo register an EC2 instance as a node in your network management system or application..."
+    }
+  }
