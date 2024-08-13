@@ -80,7 +80,7 @@ def handle_user_input(user_question):
     st.session_state.chat_history.append({"question": user_question, "answer": response["output_text"]})
 
 def main():
-    st.set_page_config("Chat PDF or Website")
+    st.set_page_config("AI-AGENT")
     st.header("AI-AGENT")
 
     
