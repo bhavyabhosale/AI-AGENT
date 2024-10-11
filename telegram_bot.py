@@ -58,7 +58,7 @@ async def handle_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
     await update.message.reply_text(response)
 
 async def main() -> None:
-    application = Application.builder().token("7434489725:AAEiQyYSq_isbD0xukUt5oVOEwAuowVxHDs").build()
+    application = Application.builder().token("**token**").build()
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("help", help_command))
     application.add_handler(CommandHandler("create_vpc", handle_command))
