@@ -20,7 +20,7 @@ Clean and structure input data to prepare for analysis and model training.
 Generate text embeddings using pre-trained models (e.g., BERT) and store efficiently using Faiss.
 
 ### 3. Implementation of Language Models
-Utilize Hugging Face Transformers to fine-tune or use pre-trained models for understanding user input and generating responses.
+Utilize google gemini pro Transformers to fine-tune or use pre-trained models for understanding user input and generating responses.
 
 ### 4. Construction of Retrieval-Augmented Generation (RAG) Model
 Enhance responses by integrating retrieved information from a large dataset or knowledge base.
